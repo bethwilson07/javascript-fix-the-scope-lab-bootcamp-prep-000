@@ -9,8 +9,10 @@ function yourAnimal() {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   var animal = cat;
-  console.log(`${animal}`);
+  return animal;
 }
+
+yourAnimal()
 
 function add2(n) {
   return n + two
